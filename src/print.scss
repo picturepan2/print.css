@@ -1,0 +1,7 @@
+/*! Print.css | MIT License | github.com/picturepan2/print.css */
+// Core variables and mixins
+@import "variables";
+
+@media print {
+  @import "core";
+}

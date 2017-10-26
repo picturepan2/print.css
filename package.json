@@ -1,0 +1,40 @@
+{
+  "name": "print.css",
+  "version": "0.1.0",
+  "homepage": "http://picturepan2.github.io/print.css",
+  "author": "Yan Zhu <picturepan2@hotmail.com>",
+  "description": "Print.css: a CSS framework for faster and environment-friendly printing.",
+  "style": "dist/print.css",
+  "main": "src/print.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picturepan2/print.css.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "responsive",
+    "print-friendly",
+    "front-end",
+    "sass"
+  ],
+  "bugs": {
+    "url": "https://github.com/picturepan2/print.css/issues"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "latest"
+  },
+  "browserslist": [
+    "last 4 Chrome versions",
+    "Edge >= 12",
+    "Firefox ESR",
+    "last 4 Safari versions",
+    "last 4 Opera versions",
+    "Explorer >= 10"
+  ]
+}

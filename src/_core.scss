@@ -1,0 +1,39 @@
+// Core
+.print-css {
+  // Reset background and colors
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    border-color: $print-primary-color !important;
+    box-shadow: none !important;
+    color: $print-primary-color !important;
+    text-shadow: none !important;
+  }
+
+  // Reset links
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  // Reset input placeholder color
+  input,
+  textarea {
+    &::placeholder {
+      color: $print-secondary-color;
+    }
+  }
+
+  // Reset pre
+  pre {
+    border: 1px solid $print-primary-color;
+    white-space: pre-wrap !important;
+  }
+
+  // Avoid page break
+  pre,
+  blockquote {
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,36 @@
+/*! Print.css | MIT License | github.com/picturepan2/print.css */
+@media print {
+  .print-css *,
+  .print-css *::before,
+  .print-css *::after {
+    background: transparent !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    text-shadow: none !important;
+  }
+  .print-css a,
+  .print-css a:visited {
+    text-decoration: underline;
+  }
+  .print-css input::-webkit-input-placeholder,
+  .print-css textarea::-webkit-input-placeholder {
+    color: #ccc;
+  }
+  .print-css input:-ms-input-placeholder,
+  .print-css textarea:-ms-input-placeholder {
+    color: #ccc;
+  }
+  .print-css input::placeholder,
+  .print-css textarea::placeholder {
+    color: #ccc;
+  }
+  .print-css pre {
+    border: 1px solid #000;
+    white-space: pre-wrap !important;
+  }
+  .print-css pre,
+  .print-css blockquote {
+    page-break-inside: avoid;
+  }
+}
